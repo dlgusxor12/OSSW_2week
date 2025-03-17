@@ -22,11 +22,11 @@ if __name__ == '__main__':
 
 
     if act == '+':
-        result = plus(input1,input2)
+        result = plus((int)(input1),(int)(input2))
     elif act == '-':
-        result = minus(input1,input2)
+        result = minus((int)(input1),(int)(input2))
     elif act == '*':
-        result = mul(input1,input2)
+        result = mul((int)(input1),(int)(input2))
     elif act == '/':
-        result = divide(input1,input2)
+        result = divide((int)(input1),(int)(input2))
     print(f'사칙연산 결과는 {result}입니다.')
